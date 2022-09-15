@@ -9,11 +9,6 @@ import { HEROES } from 'src/mock-heroes';
 })
 export class HeroesComponent implements OnInit {
   heros = HEROES; //binds an array for binding 
-  hero: Hero = {
-    id:1,
-    name:'Windstorm'
-  }
-
   constructor() { }
 
   // lifecycle hook: Angular calls this shortly after creating a component
